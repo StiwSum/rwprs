@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--<!DOCTYPE library SYSTEM "C:\Users\USER-RAF\Documents\NetBeansProjects\FirstLab\src\rpis71\badykov\wdad\learn\xmltask\library.dtd">-->
+
+<library>
+    <reader>
+        <book>
+            <author>
+                <firstname>Germann</firstname>
+                <secondname>Gesse</secondname>
+            </author>
+            <name>SteWolf</name>
+            <printyear>1926</printyear>
+            <genre value = "story"/>
+        </book>
+
+        <book>
+            <author>
+                <firstname>Tomas</firstname>
+                <secondname>Tolkien</secondname>
+            </author>
+            <name>Lord Of Rings</name>
+            <printyear>1926</printyear>
+            <genre value="story"/>
+        </book>
+
+        <takedate day="01" month="10" year="2019"/>
+    </reader>
+
+    <reader>
+        <book>
+            <author>
+                <firstname>Fridrich</firstname>
+                <secondname>Nizche</secondname>
+            </author>
+            <name>Antichrist</name>
+            <printyear>1885</printyear>
+            <genre value="article"/>
+        </book>
+
+        <takedate day="03" month="10" year="2019"/>
+    </reader>
+
+    <reader>
+        <book>
+            <author>
+                <firstname>Tomas</firstname>
+                <secondname>Tolkien</secondname>
+            </author>
+            <name>Hobbit</name>
+            <printyear>1926</printyear>
+            <genre value="story"/>
+        </book>
+        <takedate day="04" month="10" year="2019"/>
+    </reader>
+</library>

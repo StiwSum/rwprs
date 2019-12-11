@@ -1,29 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44e04afb-696c-4247-bb29-cd282eca734c" name="Default Changelist" comment="" />
+    <list default="true" id="44e04afb-696c-4247-bb29-cd282eca734c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/TakeDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/TestXmlTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/XmlTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/library.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UovuyHrO6fTpfmMuO6xCu7yfuX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestXmlTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RPIS71.Badykov.wdad.learn.xml.TestXmlTask" />
+      <module name="rwprs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RPIS71.Badykov.wdad.learn.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestXmlTask" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -54,7 +104,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1732" y="60" key="#Auto_Import" timestamp="1576038017070">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state x="1732" y="60" key="#Auto_Import/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576038017070" />
     <state x="1732" y="60" key="#Project_Structure" timestamp="1576036008652">
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>
@@ -67,5 +124,29 @@
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>
     <state x="1970" y="165" key="FileChooserDialogImpl/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576036323539" />
+    <state width="1864" height="307" key="GridCell.Tab.0.bottom" timestamp="1576045009225">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="307" key="GridCell.Tab.0.bottom/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045009225" />
+    <state width="1864" height="307" key="GridCell.Tab.0.center" timestamp="1576045009224">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="307" key="GridCell.Tab.0.center/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045009224" />
+    <state width="1864" height="307" key="GridCell.Tab.0.left" timestamp="1576045009224">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="307" key="GridCell.Tab.0.left/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045009224" />
+    <state width="1864" height="307" key="GridCell.Tab.0.right" timestamp="1576045009224">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="307" key="GridCell.Tab.0.right/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045009224" />
+    <state x="1812" y="213" key="run.anything.popup" timestamp="1576042382241">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state x="1812" y="213" key="run.anything.popup/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576042382241" />
+    <state x="1819" y="-41" width="840" height="1034" key="search.everywhere.popup" timestamp="1576038404171">
+      <screen x="1280" y="-56" width="1920" height="1050" />
+    </state>
+    <state x="1819" y="-41" width="840" height="1034" key="search.everywhere.popup/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576038404171" />
   </component>
 </project>
