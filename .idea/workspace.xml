@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e04afb-696c-4247-bb29-cd282eca734c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/PreferencesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/resources/configuration/appconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/rmi/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/rmi/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/utils/PreferencesManagerConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/PreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/PreferencesManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +17,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="xmlTask" />
+        <entry key="$PROJECT_DIR$" value="rmiTask" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestXmlTask" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestXmlTask" />
       </list>
