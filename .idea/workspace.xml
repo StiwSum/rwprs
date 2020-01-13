@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e04afb-696c-4247-bb29-cd282eca734c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/PreferencesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/resources/configuration/appconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/utils/PreferencesManagerConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/PreferencesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/PreferencesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/data/managers/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/learn/xml/library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/resources/configuration/appconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPIS71/Badykov/wdad/resources/configuration/appconfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +18,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="xmlTask" />
+        <entry key="$PROJECT_DIR$" value="PreferencesManagerAPIChange" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,8 +79,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestXmlTask" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestXmlTask" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -104,6 +109,9 @@
       <option name="presentableId" value="Default" />
       <updated>1576035988084</updated>
       <workItem from="1576035991687" duration="254000" />
+      <workItem from="1576053146112" duration="3660000" />
+      <workItem from="1576186595251" duration="39000" />
+      <workItem from="1578876961535" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="commit: final in XmlTask;">
       <created>1576045514152</created>
@@ -112,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576045514152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit: final in ConfigurationFeature;">
+      <created>1576046272564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576046272564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit: final in XmlTask;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit: final in XmlTask;" />
+    <MESSAGE value="commit: final in ConfigurationFeature;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit: final in ConfigurationFeature;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1732" y="60" key="#Auto_Import" timestamp="1576038017070">
@@ -132,34 +148,38 @@
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>
     <state x="1732" y="60" key="#Project_Structure/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576036008652" />
-    <state x="1754" y="107" key="CommitChangelistDialog2" timestamp="1576045512973">
+    <state x="1754" y="107" key="CommitChangelistDialog2" timestamp="1576046271061">
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>
-    <state x="1754" y="107" key="CommitChangelistDialog2/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045512973" />
-    <state x="1970" y="165" key="FileChooserDialogImpl" timestamp="1576036323539">
+    <state x="1754" y="107" key="CommitChangelistDialog2/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576046271061" />
+    <state x="1970" y="165" key="FileChooserDialogImpl" timestamp="1576186643660">
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>
-    <state x="1970" y="165" key="FileChooserDialogImpl/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576036323539" />
-    <state width="1864" height="307" key="GridCell.Tab.0.bottom" timestamp="1576045978062">
+    <state x="1970" y="165" key="FileChooserDialogImpl/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576186643660" />
+    <state width="1864" height="296" key="GridCell.Tab.0.bottom" timestamp="1576061834453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576061834453" />
+    <state width="1864" height="307" key="GridCell.Tab.0.bottom/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576047757337" />
+    <state width="1864" height="296" key="GridCell.Tab.0.center" timestamp="1576061834453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="296" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576061834453" />
+    <state width="1864" height="307" key="GridCell.Tab.0.center/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576047757337" />
+    <state width="1864" height="296" key="GridCell.Tab.0.left" timestamp="1576061834453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="296" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576061834453" />
+    <state width="1864" height="307" key="GridCell.Tab.0.left/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576047757337" />
+    <state width="1864" height="296" key="GridCell.Tab.0.right" timestamp="1576061834453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1864" height="296" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576061834453" />
+    <state width="1864" height="307" key="GridCell.Tab.0.right/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576047757337" />
+    <state x="1732" y="138" key="Vcs.Push.Dialog.v2" timestamp="1576046275155">
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>
-    <state width="1864" height="307" key="GridCell.Tab.0.bottom/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045978062" />
-    <state width="1864" height="307" key="GridCell.Tab.0.center" timestamp="1576045978061">
-      <screen x="1280" y="-56" width="1920" height="1050" />
-    </state>
-    <state width="1864" height="307" key="GridCell.Tab.0.center/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045978061" />
-    <state width="1864" height="307" key="GridCell.Tab.0.left" timestamp="1576045978061">
-      <screen x="1280" y="-56" width="1920" height="1050" />
-    </state>
-    <state width="1864" height="307" key="GridCell.Tab.0.left/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045978061" />
-    <state width="1864" height="307" key="GridCell.Tab.0.right" timestamp="1576045978061">
-      <screen x="1280" y="-56" width="1920" height="1050" />
-    </state>
-    <state width="1864" height="307" key="GridCell.Tab.0.right/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045978061" />
-    <state x="1732" y="138" key="Vcs.Push.Dialog.v2" timestamp="1576045517121">
-      <screen x="1280" y="-56" width="1920" height="1050" />
-    </state>
-    <state x="1732" y="138" key="Vcs.Push.Dialog.v2/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576045517121" />
+    <state x="1732" y="138" key="Vcs.Push.Dialog.v2/1280.-56.1920.1050/0.0.1280.994@1280.-56.1920.1050" timestamp="1576046275155" />
     <state x="1812" y="213" key="run.anything.popup" timestamp="1576042382241">
       <screen x="1280" y="-56" width="1920" height="1050" />
     </state>

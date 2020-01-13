@@ -2,7 +2,7 @@
     <rmi>
         <server>
             <registry>
-                <createregistry>no</createregistry>
+                <createregistry>yes</createregistry>
                 <registryaddress>localhost</registryaddress>
                 <registryport>1099</registryport>
             </registry>
